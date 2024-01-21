@@ -49,8 +49,11 @@ main{
   width: 100%;
   max-width: 960px;
 }
-mb20{
+.dsc-mb20{
   margin-bottom: 20px;
+}
+.dsc-mt20{
+  margin-top: 20px;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -118,4 +121,16 @@ nav h1{
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
+}
+
+.dsc-bnt-next-page{
+  padding: 10px;
+  border: 1px solid var(--dsc-color-btn-primary);
+  border-radius: 4px;
+  color: var(--dsc-color-btn-primary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+
 }

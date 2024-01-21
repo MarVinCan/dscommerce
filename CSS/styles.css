@@ -38,7 +38,20 @@ header {
   display: flex;
   align-items: center;
 }
+/*--------------------------------------------------------------------------*/
+/* generic styles */
 
+.dsc-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+mb20{
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------------------*/
+/* header styles */
 a,
 a:hover {
   text-decoration: none;
@@ -50,12 +63,15 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.dsc-container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 960px;
+nav a{
+  font-size: 14px;
+  font-weight: 700;
 }
-
+nav h1{
+  font-size: 24px;
+}
+/*--------------------------------------------------------------------------*/
+/* card styles */
 .dsc-card {
   margin-bottom: 20px;
   border: 1px solid var(--dsc-color-card-border);
@@ -66,7 +82,8 @@ nav {
 .dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
-
+/*--------------------------------------------------------------------------*/
+/* button styles */
 .dsc-btn-page-container {
   width: 220px;
   display: grid;
@@ -90,8 +107,4 @@ nav {
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
-}
-
-mb20{
-    margin-bottom: 20px;
 }

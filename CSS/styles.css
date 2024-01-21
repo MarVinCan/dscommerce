@@ -82,7 +82,6 @@ nav h1{
 /*--------------------------------------------------------------------------*/
 /* card styles */
 .dsc-card {
-  margin-bottom: 20px;
   border: 1px solid var(--dsc-color-card-border);
   border-radius: 4px;
   background-color: var(--dsc-color-font-tertiary);
@@ -94,6 +93,7 @@ nav h1{
 /*--------------------------------------------------------------------------*/
 /* button styles */
 .dsc-btn-page-container {
+  padding-top: 20px;
   width: 100%;
   display: grid;
   grid-gap: 20px;

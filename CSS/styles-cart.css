@@ -1,3 +1,5 @@
+@import './styles-cart.css';
+
 #cart-container {
   padding: 20px 0;
 }
@@ -6,7 +8,7 @@
 }
 .card-total-container h3 {
   text-align: right;
-  color: #0caf1d;
+  color: var(--dsc-color-font-secondary);
   font-size: 16px;
 }
 .cart-item-container {
@@ -31,20 +33,20 @@
 }
 
 .cart-item-quanity-btn {
-  color: #3483fa;
+  color: var(--dsc-color-btn-primary);
   cursor: pointer;
 }
 .cart-item-right {
   padding: 10px 0;
-  color: #0caf1d;
+  color: var(--dsc-color-font-secondary);
   font-size: 12px;
   font-weight: 700;
 }
 .card-item-description {
-  color: #636363;
+  color: var(--dsc-color-font-primary);
   padding: 10px 0;
 }
 .card-item-description h3 {
   font-size: 16px;
-  color: #636363;
+  color: var(--dsc-color-font-primary);
 }

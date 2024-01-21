@@ -31,13 +31,16 @@ html,
 body {
   background-color: var(--dsc-color-bg-primary);
 }
-
-header {
-  height: 80px;
-  background-color: var(--dsc-color-bg-secondary);
-  display: flex;
-  align-items: center;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
+
+main{
+  padding: 0 20px;
+}
+
 /*--------------------------------------------------------------------------*/
 /* generic styles */
 
@@ -52,10 +55,13 @@ mb20{
 
 /*--------------------------------------------------------------------------*/
 /* header styles */
-a,
-a:hover {
-  text-decoration: none;
-  color: unset;
+
+header {
+  padding: 0 20px;
+  height: 80px;
+  background-color: var(--dsc-color-bg-secondary);
+  display: flex;
+  align-items: center;
 }
 nav {
   color: var(--dsc-color-font-primary);
@@ -85,9 +91,14 @@ nav h1{
 /*--------------------------------------------------------------------------*/
 /* button styles */
 .dsc-btn-page-container {
-  width: 220px;
+  width: 100%;
   display: grid;
   grid-gap: 20px;
+}
+@media (min-width: 576px){
+  .dsc-btn-page-container {
+    width: 220px;
+  }
 }
 .dsc-btn {
   border-radius: 4px;

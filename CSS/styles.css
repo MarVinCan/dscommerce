@@ -87,23 +87,42 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.dsc-navbar-right {
+  display: flex;
+  align-items: center;
+}
+.dsc-menu-items-container{
+  display: flex;
+}
+.dsc-menu-items-container img{
+  height: 20px;
+  width: 20px;
+}
+.dsc-menu-item{
+  margin-right: 20px;
+}
 nav a{
   font-size: 14px;
   font-weight: 700;
 }
 nav h1{
-  font-size: 24px;
+  font-size: 16px;
 }
 .dsc-logged-user p{
   font-size: 12px;
 
 }
-
 .dsc-logged-user{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
+@media (min-width:576px) {
+  nav h1{
+    font-size: 24px;
+  }
+}
+
 /*--------------------------------------------------------------------------*/
 /* card styles */
 
@@ -271,6 +290,7 @@ nav h1{
 }
 /*--------------------------------------------------------------------------*/
 /* table styles */
+
 .dsc-table {
   width: 100%;
   border-spacing: 0;
